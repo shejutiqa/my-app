@@ -39,5 +39,3 @@ public class PostTest {
         Assert.assertEquals(200, response.statusCode());
     }
 }
-//https://reqres.in/api/login
-//https://reqres.in/api/users
