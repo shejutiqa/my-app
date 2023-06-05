@@ -22,7 +22,7 @@ public class PostTest {
     public void postRequest() {
         String requestBody = "{\n" +
                 "  \"name\": \"John\",\n" +
-                "  \"age\": 50\n" +
+                "  \"age\": 25\n" +
                 "}";
         String url = "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/submit";
         Response response = given()
